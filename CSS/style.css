@@ -1,0 +1,145 @@
+.banner{
+height:400px;
+background:url('../images/banner.png');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.offer{
+height:500px;
+background:url('../images/offer.png');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.offer-content{
+background:rgba(0,0,0,0.5);
+padding:20px 40px;
+border-radius:10px;
+}
+
+.offer-content h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.offer-content p{
+font-size:20px;
+margin-bottom:15px;
+}
+
+.offer-content button{
+padding:10px 20px;
+background:#ff9900;
+border:none;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* MENU BOX */
+
+.menu-box{
+border:1px solid #ddd;
+padding:15px;
+border-radius:8px;
+background:#fff;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+margin-bottom:20px;
+text-align:center;
+}
+
+/* VERY SMALL MENU IMAGES */
+
+.menu-img{
+width:120px;     /* small width */
+height:80px;     /* small height */
+object-fit:cover;
+margin-top:10px;
+border-radius:6px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+header a,
+footer a{
+cursor:pointer;
+text-decoration:none;
+color:black;
+}
+
+header ul li a{
+cursor:pointer;
+padding:8px 15px;
+display:inline-block;
+}
+
+header ul li a:hover{
+color:red;
+}
+
+.footer{
+background:#222;
+color:white;
+padding:40px 20px;
+}
+
+.footer h3,
+.footer h4{
+margin-bottom:15px;
+}
+
+.footer-menu{
+list-style:none;
+padding:0;
+}
+
+.footer-menu li{
+margin-bottom:8px;
+}
+
+.footer-menu a{
+color:white;
+text-decoration:none;
+}
+
+.footer-menu a:hover{
+color:#ff9900;
+}
+
+.subscribe-input{
+padding:8px;
+width:70%;
+border:none;
+border-radius:4px;
+}
+
+.subscribe-btn{
+padding:8px 15px;
+background:#ff9900;
+border:none;
+color:white;
+border-radius:4px;
+margin-top:10px;
+cursor:pointer;
+}
+
+.map-section{
+margin-top:30px;
+}
+
+copyright{
+text-align:center;
+margin-top:20px;
+}
